@@ -37,7 +37,7 @@ jobs:
         cmdline-tools-version: '12266719'
         packages: 'platforms;android-35 build-tools;35.0.0 platform-tools'
 
-    - name: Install NDK
+    - name: Install NDK NDK
       run: |
         echo "y" | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager \
           --channel=0 \
